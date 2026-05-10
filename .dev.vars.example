@@ -1,0 +1,5 @@
+# Copy this file to .dev.vars and fill in your values
+BOT_TOKEN=your-telegram-bot-token
+BOT_CHANNEL=-100XXXXXXXXXX
+SIA_SECRET=your-long-random-secret-string-for-encryption
+CF_WORKER_KEY=shared-secret-between-vercel-and-cloudflare

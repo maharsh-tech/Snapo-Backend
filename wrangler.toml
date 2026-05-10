@@ -1,0 +1,9 @@
+name = "image-hosting-worker"
+main = "src/index.js"
+compatibility_date = "2025-05-10"
+
+# Secrets (set via `wrangler secret put <NAME>`):
+#   BOT_TOKEN       — Telegram bot token
+#   BOT_CHANNEL     — Private channel ID (-100XXXXXXXXXX)
+#   SIA_SECRET      — Encryption key for XOR+Base32
+#   CF_WORKER_KEY   — Shared auth key with Vercel
